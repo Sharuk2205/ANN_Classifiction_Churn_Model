@@ -59,13 +59,8 @@ Essential libraries like `NumPy`, `Pandas`, `TensorFlow`, `Keras`, and `scikit-l
 - Epochs: 100
 - Batch size: 32
 
-### 5. Model Evaluation
-- Evaluate on test set using:
-  - Confusion Matrix
-  - Accuracy Score
-- Achieved **~86.3% accuracy**
 
-### 6. Making Predictions
+### 5. Making Predictions
 - Use the trained model to predict a single new observation
 - Ensure input format is `[[...]]`
 - Input features must match training order and preprocessing
