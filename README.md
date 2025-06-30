@@ -1,4 +1,4 @@
-# 🧠 Customer Churn Prediction with Artificial Neural Networks
+# Customer Churn Prediction with Artificial Neural Networks
 
 This project involves building and deploying an **Artificial Neural Network (ANN)** to predict whether a customer is likely to leave a bank. It consists of two parts:
 
@@ -11,10 +11,9 @@ This project involves building and deploying an **Artificial Neural Network (ANN
 
 
 
-
 ---
 
-## 📁 Files
+## Files
 
 experiments.ipynb: Notebook with preprocessing, model training, and evaluation.
 
@@ -32,12 +31,12 @@ app.py: Streamlit app for interactive predictions.
 
 requirements.txt: File listing all required libraries and dependencies.
 
-## ⚙️ Workflow
+## Workflow
 
-### 1. 📦 Importing Libraries
+### 1. Importing Libraries
 Essential libraries like `NumPy`, `Pandas`, `TensorFlow`, `Keras`, and `scikit-learn` are imported.
 
-### 2. 🧹 Data Preprocessing
+### 2. Data Preprocessing
 - Load `Churn_Modelling.csv`
 - Drop irrelevant columns (e.g., `RowNumber`, `CustomerId`, `Surname`)
 - Encode categorical features:
@@ -47,33 +46,33 @@ Essential libraries like `NumPy`, `Pandas`, `TensorFlow`, `Keras`, and `scikit-l
 - Split into training and test sets
 - Feature scaling using `StandardScaler`
 
-### 3. 🏗️ Building the ANN
+### 3. Building the ANN
 - Use `Sequential` API from Keras
 - Architecture:
   - Input layer
   - Two hidden layers with ReLU activation
   - Output layer with sigmoid activation (binary classification)
 
-### 4. 🏋️ Training the ANN
+### 4. Training the ANN
 - Optimizer: `Adam`
 - Loss: `binary_crossentropy`
 - Epochs: 100
 - Batch size: 32
 
-### 5. 📈 Model Evaluation
+### 5. Model Evaluation
 - Evaluate on test set using:
   - Confusion Matrix
   - Accuracy Score
 - Achieved **~86.3% accuracy**
 
-### 6. 🔮 Making Predictions
+### 6. Making Predictions
 - Use the trained model to predict a single new observation
 - Ensure input format is `[[...]]`
 - Input features must match training order and preprocessing
 
 ---
 
-## 🧬 Streamlit App Pipeline
+##  Streamlit App Pipeline
 
 1. **User Input**: Collected via UI form (geography, age, salary, etc.)
 2. **Encoding**:
@@ -86,7 +85,7 @@ Essential libraries like `NumPy`, `Pandas`, `TensorFlow`, `Keras`, and `scikit-l
 
 ---
 
-## 💻 Run the App
+## Run the App
 
 ### Option 1: Google Colab
 - Open the `.ipynb` file in [Google Colab](https://colab.research.google.com)
@@ -129,7 +128,7 @@ streamlit run app.py
 
 ---
 
-## 🎯 Example Prediction
+##  Example Prediction
 
 Predicting for the following customer:
 
@@ -151,7 +150,7 @@ The customer is not likely to churn.
 
 
 
-## 📝 Notes
+##  Notes
 
 - Ensure encoders and scaler are used **in the same order** as in training.
 - All `.pkl` and `.h5` files must be present in the working directory for the app to work.
