@@ -6,7 +6,8 @@ This project involves building and deploying an **Artificial Neural Network (ANN
 - A Jupyter Notebook for training and evaluating the ANN model.
 - A Streamlit web application for real-time churn prediction using the trained model.
 
-  ![image](https://github.com/user-attachments/assets/3f6301f1-d32c-4a46-81d7-40eae9ec2c16)
+ ![Uploading Image_churn.png…]()
+
 
 
 
