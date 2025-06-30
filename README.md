@@ -6,7 +6,8 @@ This project involves building and deploying an **Artificial Neural Network (ANN
 - A Streamlit web application for real-time churn prediction using the trained model.
 
  
-![image](https://github.com/user-attachments/assets/d12194da-7cea-4d9e-b4ca-9de147aa64cf)
+<img width="509" alt="Image_churn" src="https://github.com/user-attachments/assets/4d6b7407-3185-4a43-b904-22656eebfaf5" />
+
 
 
 
