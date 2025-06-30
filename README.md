@@ -17,13 +17,14 @@ This project involves building and deploying an **Artificial Neural Network (ANN
 
 | File Name                                               | Description                                                |
 |---------------------------------------------------------|------------------------------------------------------------|
-| `artificial_neural_network(Customer Churn Prediction).ipynb` | Notebook with preprocessing, model training, and evaluation |
-| `Churn_Modelling.csv`                                   | Dataset containing customer details                         |
-| `model.h5`                                               | Trained ANN model saved in Keras format                    |
-| `scaler.pkl`                                             | StandardScaler used for feature scaling                    |
+| `experiments.ipynb`                                     | Notebook with preprocessing, model training, and evaluation|
+| `Churn_Modelling.csv`                                   | Dataset containing customer details                        |
+| `model.h5`                                              | Trained ANN model saved in Keras format                    |
+| `scaler.pkl`                                            | StandardScaler used for feature scaling                    |
 | `label_encoder_gender.pkl`                              | LabelEncoder for encoding the `Gender` feature             |
-| `onehot_encoder_geo.pkl`                                | OneHotEncoder for encoding the `Geography` feature         |
+| `OneHot_Encoder_Geo.pkl`                                | OneHotEncoder for encoding the `Geography` feature         |
 | `app.py`                                                | Streamlit app for interactive predictions                  |
+| `requirements.txt`                                      |Importing Required Libraries                                |
 
 ---
 
@@ -38,6 +39,7 @@ Essential libraries like `NumPy`, `Pandas`, `TensorFlow`, `Keras`, and `scikit-l
 - Encode categorical features:
   - `Gender` with `LabelEncoder`
   - `Geography` with `OneHotEncoder` (excluding one dummy variable to avoid dummy trap)
+  - Saving the Encoder File
 - Split into training and test sets
 - Feature scaling using `StandardScaler`
 
@@ -143,21 +145,10 @@ Churn Probability: 0.27
 The customer is not likely to churn.
 ```
 
----
+
 
 ## 📝 Notes
 
 - Ensure encoders and scaler are used **in the same order** as in training.
 - All `.pkl` and `.h5` files must be present in the working directory for the app to work.
 
----
-
-## 📜 License
-
-This project is licensed under the [MIT License](LICENSE).
-
----
-
-## 🙋‍♀️ Questions or Suggestions?
-
-Feel free to open an issue or submit a pull request!
