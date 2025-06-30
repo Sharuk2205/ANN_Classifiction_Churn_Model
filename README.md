@@ -16,18 +16,21 @@ This project involves building and deploying an **Artificial Neural Network (ANN
 
 ## 📁 Files
 
-| File Name                                               | Description                                                |
-|---------------------------------------------------------|------------------------------------------------------------|
-| `experiments.ipynb`                                     | Notebook with preprocessing, model training, and evaluation|
-| `Churn_Modelling.csv`                                   | Dataset containing customer details                        |
-| `model.h5`                                              | Trained ANN model saved in Keras format                    |
-| `scaler.pkl`                                            | StandardScaler used for feature scaling                    |
-| `label_encoder_gender.pkl`                              | LabelEncoder for encoding the `Gender` feature             |
-| `OneHot_Encoder_Geo.pkl`                                | OneHotEncoder for encoding the `Geography` feature         |
-| `app.py`                                                | Streamlit app for interactive predictions                  |
-| `requirements.txt`                                      |Importing Required Libraries                                |
+experiments.ipynb: Notebook with preprocessing, model training, and evaluation.
 
----
+Churn_Modelling.csv: Dataset containing customer details.
+
+model.h5: Trained ANN model saved in Keras format.
+
+scaler.pkl: StandardScaler used for feature scaling.
+
+label_encoder_gender.pkl: LabelEncoder for encoding the Gender feature.
+
+OneHot_Encoder_Geo.pkl: OneHotEncoder for encoding the Geography feature.
+
+app.py: Streamlit app for interactive predictions.
+
+requirements.txt: File listing all required libraries and dependencies.
 
 ## ⚙️ Workflow
 
