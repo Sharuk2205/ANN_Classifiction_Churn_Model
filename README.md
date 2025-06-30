@@ -1,4 +1,4 @@
-
+![image](https://github.com/user-attachments/assets/d12194da-7cea-4d9e-b4ca-9de147aa64cf)
 # 🧠 Customer Churn Prediction with Artificial Neural Networks
 
 This project involves building and deploying an **Artificial Neural Network (ANN)** to predict whether a customer is likely to leave a bank. It consists of two parts:
@@ -6,7 +6,8 @@ This project involves building and deploying an **Artificial Neural Network (ANN
 - A Jupyter Notebook for training and evaluating the ANN model.
 - A Streamlit web application for real-time churn prediction using the trained model.
 
- https://miro.medium.com/v2/resize:fit:4800/format:webp/1*CwJuemj1YV1oMbHIANWz4Q.png
+ 
+
 
 
 
